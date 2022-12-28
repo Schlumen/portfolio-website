@@ -193,6 +193,7 @@ button:hover, .button:hover {
 
 #work_title {
     margin: 20px;
+    text-align: center;
 }
 
 #contact-form {
