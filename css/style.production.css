@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
-* Browsers: last 2 version
+* Browsers: last 4 version
 */
 
 /* ELEMENT SELECTORS*/
@@ -113,7 +113,7 @@ button {
     border: none;
     font-family: inherit;
     font-weight: 500;
-    background-color: #14B09B;
+    background-color: #00A6D2;
     color: #000732;
     text-decoration: none;
     padding: 12px;
@@ -123,6 +123,7 @@ button {
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
             box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
     -webkit-transition: 0.8s opacity, 0.4s font-size;
+    -o-transition: 0.8s opacity, 0.4s font-size;
     transition: 0.8s opacity, 0.4s font-size;
 }
 
@@ -130,7 +131,7 @@ button {
     border: none;
     font-family: inherit;
     font-weight: 500;
-    background-color: #14B09B;
+    background-color: #00A6D2;
     color: #000732;
     text-decoration: none;
     padding: 12px;
@@ -140,6 +141,7 @@ button {
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
             box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
     -webkit-transition: 0.8s opacity, 0.4s font-size;
+    -o-transition: 0.8s opacity, 0.4s font-size;
     transition: 0.8s opacity, 0.4s font-size;
 }
 
@@ -231,12 +233,13 @@ button:hover, .button:hover {
 }
 
 .grid__item {
-    background-color: #14B09B;
+    background-color: #00A6D2;
     padding: 10px;
     border-radius: 6px;
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.7);
             box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.7);
     -webkit-transition: 0.6s opacity;
+    -o-transition: 0.6s opacity;
     transition: 0.6s opacity;
 }
 
@@ -248,11 +251,12 @@ button:hover, .button:hover {
 
 #work_title {
     margin: 20px;
+    text-align: center;
 }
 
 #contact-form {
     display: inline-block;
-    background-color: #14B09B;
+    background-color: #00A6D2;
     padding: 10px;
     margin: 20px auto;
     border-radius: 6px;
