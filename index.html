@@ -7,17 +7,23 @@
         <link rel="shortcut icon" href="ico/fav.ico">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/style.production.css">-->
     </head>
     <body>
         <!-- Header -->
         <header class="page_header">
             <!-- Logo -->
             <a href="index.html"><img src="img/logo.png" alt="Logo" class="page_header__item" id="logo"></a>
+            <!-- Hamburger -->
+            <input id="menu-toggle" type="checkbox"/>
+            <label class="menu-button-container page_header__item" for="menu-toggle">
+                <div class="menu-button">
+                </div>
+            </label>
             <!-- Menu -->
             <nav class="page_header__item">
-                <ul role="menubar" class="navigation-list">
+                <ul role="menubar" class="navigation-list menu">
                     <li role="presentation">
                         <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
                     </li>
