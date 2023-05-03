@@ -1,89 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=deivice-width, initial-scale=1">
-        <title>Lumen Haendler - Portfolio</title>
-        <link rel="shortcut icon" href="ico/fav.ico">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="page_header">
-            <!-- Logo -->
-            <a href="index.html"><img src="img/logo.png" alt="Logo" class="page_header__item" id="logo"></a>
-            <!-- Hamburger -->
-            <input id="menu-toggle" type="checkbox"/>
-            <label class="menu-button-container page_header__item" for="menu-toggle">
-                <div class="menu-button">
-                </div>
-            </label>
-            <!-- Menu -->
-            <nav class="page_header__item">
-                <ul role="menubar" class="navigation-list menu">
-                    <li role="presentation">
-                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Main -->
-        <section>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=deivice-width, initial-scale=1">
+    <title>Lumen Haendler - Portfolio</title>
+    <link rel="shortcut icon" href="ico/fav.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="page_header">
+        <!-- Logo -->
+        <a href="index.html"><img src="img/logo.png" alt="Logo" class="page_header__item" id="logo"></a>
+        <!-- Hamburger -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container page_header__item" for="menu-toggle">
+            <div class="menu-button">
+            </div>
+        </label>
+        <!-- Menu -->
+        <nav class="page_header__item">
+            <ul role="menubar" class="navigation-list menu">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <section>
+        <div class="work">
             <h1 id="work_title">Work</h1>
             <div class="grid">
                 <div class="grid__item">
-                    <h2>Project 1</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/akan.png" alt="Akan Name Generator">
+                    <div class="grid-content">
+                        <h2>Akan Name Generator</h2>
+                        <p>This project is a simple two page
+                            website that features the Akan names and culture. You can input your gender and date of
+                            birth and the app will show your Akan name.</p>
+                        <a href="https://schlumen.github.io/akan-name-generator/" target="_blank">Go to site</a><br>
+                        <a href="https://github.com/Schlumen/akan-name-generator" target="_blank">See project on
+                            Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Project 2</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/rickbase.png" alt="Rickbase">
+                    <div class="grid-content">
+                        <h2>Rickbase</h2>
+                        <p>This app shows a list of all characters from the Rick and Morty series loaded from an
+                            external API. If you click on a character a modal with the character details will open. </p>
+                        <a href="https://schlumen.github.io/rickbase/" target="_blank">Go to site</a><br>
+                        <a href="https://github.com/Schlumen/rickbase" target="_blank">See project on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Project 3</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/pekedex.png" alt="Pokedex">
+                    <div class="grid-content">
+                        <h2>Pokedex</h2>
+                        <p>This app shows a list of all pokemons loaded from the RESTful Pokémon API.
+                            If you click on a pokemons name a modal with the pokemons picture and details will open.</p>
+                        <a href="https://schlumen.github.io/simple-js-app/" target="_blank">Go to site</a><br>
+                        <a href="https://github.com/Schlumen/simple-js-app" target="_blank">See project on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Project 4</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/myflix.png" alt="MyFlix">
+                    <div class="grid-content">
+                        <h2>MyFlix Movie Database</h2>
+                        <p>This is a full-stack project with an API and Database as backend and a React single page
+                            application as frontend. User can register, edit their account, delete their
+                            account and add and remove movies from their list of favorites.</p>
+                        <a href="https://myflix.haendler.dev/" target="_blank">Go to site</a><br>
+                        <a href="https://github.com/Schlumen/myflix-client" target="_blank">See frontend on
+                            Github</a><br>
+                        <a href="https://github.com/Schlumen/movie-api" target="_blank">See backend on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Project 5</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/todo.png" alt="Eisenhower ToDo List">
+                    <div class="grid-content">
+                        <h2>Eisenhower ToDo List</h2>
+                        <p>This is a To-do list app based on the Eisenhower Matrix, designed to help you prioritize your
+                            tasks and maximize your productivity. It is a full-stack project where users
+                            can register, edit their account, delete their
+                            account, create notes, prioritize notes and delete notes.</p>
+                        <a href="https://github.com/Schlumen/todo-client" target="_blank">See frontend on
+                            Github</a><br>
+                        <a href="https://github.com/Schlumen/todo-crud-app" target="_blank">See backend on Github</a>
+                    </div>
                 </div>
                 <div class="grid__item">
-                    <h2>Project 6</h2>
-                    <p>This is the project description</p>
-                    <a href="#">See project on Github</a>
+                    <img class="project-img" src="/img/meet.png" alt="Meet App">
+                    <div class="grid-content">
+                        <h2>Meet App</h2>
+                        <p>This app will allow users to search for a city and get a list of events hosted in that city.
+                            This app was developed to build a serverless, progressive web application (PWA) with React
+                            using a test-driven development (TDD) technique. The application uses the Google Calendar
+                            API to fetch upcoming events.</p>
+                        <a href="https://schlumen.github.io/meet/" target="_blank">Go to site</a><br>
+                        <a href="https://github.com/Schlumen/meet" target="_blank">See project on Github</a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer -->
-        <footer class="page_footer">
-            <p>Find me on</p>
-            <div class="social_media">
-                <a href="https://www.linkedin.com/in/lumen-haendler/" target="_blank"><img src="ico/linkedin.svg" alt="LinkedIn"></a>
-                <a href="https://github.com/Schlumen" target="_blank"><img src="ico/github.svg" alt="Github"></a>
-                <a href="https://www.codewars.com/users/Schlumen" target="_blank"><img src="ico/codewars.svg" alt="Codewars"></a>
-            </div>
-        </footer>
-        <script src="js/tota11y.min.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="page_footer">
+        <p>Find me on</p>
+        <div class="social_media">
+            <a href="https://www.linkedin.com/in/lumen-haendler/" target="_blank"><img src="ico/linkedin.svg"
+                    alt="LinkedIn"></a>
+            <a href="https://github.com/Schlumen" target="_blank"><img src="ico/github.svg" alt="Github"></a>
+            <a href="https://www.codewars.com/users/Schlumen" target="_blank"><img src="ico/codewars.svg"
+                    alt="Codewars"></a>
+        </div>
+    </footer>
+</body>
+
 </html>
