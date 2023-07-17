@@ -1,7 +1,7 @@
 :root {
     --colorA: #BFDBE7;
     --colorB: #CC8A56;
-    --colorC: #490066;
+    --colorC: #020070;
     --colorD: #609bfc;
     --colorE: #000732;
     --colorF: #FFFFFF;
@@ -146,6 +146,9 @@ button:hover, .button:hover {
 
 .explore-work {
     clear: both;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .page_footer {
@@ -196,15 +199,21 @@ p.profile_text {
 #explore-button {
     animation: move-in 1s ease-in-out 1.5s 1 forwards;
     visibility: hidden;
+    width: fit-content;
 }
 
-.about {
+.about,
+.imprint {
     max-width: 1024px;
     margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.imprint {
+    text-align: left;
 }
 
 .about p {
@@ -443,6 +452,11 @@ p.profile_text {
     padding: 0px;
 }
 
+.imprint-link {
+    display: inline-block;
+    margin-top: 20px;
+}
+
 @media all and (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
@@ -465,6 +479,10 @@ p.profile_text {
 
     .profile_text {
         text-align: center;
+    }
+
+    #explore-button {
+        align-self: center;
     }
 }
 
